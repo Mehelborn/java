@@ -7,7 +7,8 @@ class example {
 		String password = 
 				JOptionPane.showInputDialog("Password: ");
 		if (username != null && password != null && 
-				(username.equals("Mehelborn") && password.equals("keygen"))) {
+				(username.equals("Mehelborn") && password.equals("keygen"))) 
+		{
 			JOptionPane.showMessageDialog(null, "Authorized successfully!");
 		} else {
 			JOptionPane.showMessageDialog(null, "Try again!");
